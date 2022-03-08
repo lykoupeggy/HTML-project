@@ -1,0 +1,80 @@
+h1 {
+	color: #000000;						
+	font-size: 40px;					
+	font-family: "Sofia", sans-serif;   
+}
+
+header {
+	background-color: #f6729d;			
+}
+
+body {
+	background-color: #7ccce7;			
+	font-family: sans-serif;			
+}
+
+footer {
+	background-color: #2da6f8;			
+	font-size: 20px;					
+	font-family: "Sofia", sans-serif;	
+}
+
+ul {
+	background-color: #2da6f8;			
+}
+
+.price-list {
+	background-color: #2da6f8;		
+	font-family: "Sofia", sans-serif;	
+}
+
+caption {
+	background-color: #207dbc;			
+}
+
+
+a:link {
+	color: black;						
+}
+
+a:visited {
+	color: #4800ff;
+}
+
+a:hover {
+	color: hotpink;						
+}
+
+a:active {
+	color: blue; 
+}
+
+IMG.displayed {      /*eikona kentrarisma*/
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+
+
+.textrightimage {
+	width: 3000px;
+	padding: 10px;
+	overflow: hidden;
+}
+
+.textrightimage img {
+	margin-right: 15px;
+	float: left;
+}
+
+.textrightimage h3,
+.textrightimage p {
+	margin-left: 15px;
+	margin: 2px 0 0 0;
+}
+
+.textrightimage ul {
+	margin-left: 15px;
+	margin: 2px 0 0 0;
+	background-color: #7ccce7;
+}

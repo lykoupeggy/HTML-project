@@ -1,0 +1,181 @@
+
+/* pages layout */
+.grid-container-pages {
+	display: grid;
+	grid-auto-columns: 200px 250px;
+	grid-auto-rows: minmax(150px, auto);
+	grid-gap: 20px;
+	
+}
+
+.grid-item-logo {
+	grid-column: 1;
+}
+
+.grid-item-video {
+	grid-column-start: 3;
+	grid-row: 2;
+}
+
+.grid-item-1 {
+	grid-row: 2;
+}
+
+.grid-item-2 {
+	grid-row: 3;
+}
+
+.grid-item-3 {
+	grid-row: 4;
+}
+
+.grid-item-4 {
+	grid-row: 4;
+	grid-row-start: 3;
+	grid-column-start: 3;
+}
+
+.grid-item-footer {
+	grid-row: 5;
+}
+
+/* contact layout */
+.grid-container-contact {
+	display: grid;
+	grid-auto-rows: minmax(150px, auto);
+	grid-gap: 10px;
+	justify-content: center;
+}
+
+.grid-1 {
+	grid-row: 1;
+	grid-column-start: centre;
+}
+
+.grid-2 {
+	grid-row: 2;
+	grid-column-start: centre;
+}
+
+.grid-3 {
+	grid-row: 3;
+	grid-column-start: centre;
+}
+
+
+h1 {
+	color: #ADADAD;						
+	font-size: 40px;					
+	font-family: "Sofia", sans-serif;   
+}
+
+P{
+	color: #ADADAD;
+}
+
+h3{
+	color: #ADADAD;
+}
+
+header {
+	background-color: #f6729d;			
+}
+
+body {
+	background-color: #2E1114;			
+	font-family: sans-serif;	
+	color: #ADADAD;		
+}
+
+footer {
+	background-color: #501B1D;			
+	font-size: 20px;					
+	font-family: "Sofia", sans-serif;
+	color: #ADADAD;	
+}
+
+ul {
+	background-color: #2da6f8;			
+}
+
+.price-list {
+	background-color: #83677B;		
+	font-family: "Sofia", sans-serif;	
+}
+
+caption {
+	background-color: #64485C;			
+}
+
+
+a:link {
+	color: black;						
+}
+
+a:visited {
+	color: #4800ff;
+}
+
+a:hover {
+	color: hotpink;						
+}
+
+a:active {
+	color: blue; 
+}
+
+IMG.displayed {      /*eikona kentrarisma*/
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.textrightimage {
+	width: 3000px;
+	padding: 10px;
+	overflow: hidden;
+}
+
+.textrightimage img {
+	margin-right: 15px;
+	float: left;
+	border-radius: 50%;
+}
+
+.textrightimage h3,
+.textrightimage p {
+	margin-left: 15px;
+	margin: 2px 0 0 0;
+
+}
+
+.textrightimage ul {
+	margin-left: 15px;
+	margin: 2px 0 0 0;
+	background-color: #83677B;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: whitesmoke;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  background-color: #36454F;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+}
+
+.button:hover {
+  background-color: white;
+  color: ghostwhite;
+  cursor: pointer;
+}
+
+
